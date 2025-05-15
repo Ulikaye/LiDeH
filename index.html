@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LitecH DevHaus - Emmanuel Ulikaye</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-y+8pZZVhvhAqg+YwbiESaPLwUoCVPvXqz9GQO8VZst68KPrEVsOyCywZnhxPNl9aEdOwv+UCkF0I+K8mx23heg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">LitecH DevHaus</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="images/profile.jpg" alt="Emmanuel Ulikaye">
+    <div class="hero-content">
+      <h1>I’m Immanuel,<br>Backend Software Developer</h1>
+      <p>I specialize in designing and building scalable backend systems and APIs. With a strong foundation in database design and server-side programming, I create secure, efficient, and maintainable software solutions for the modern web and mobile platforms.</p>
+      
+      <div class="buttons">
+        <button class="btn" id="btn-projects" onclick="showPopupL()">View Projects</button>
+        <!--Pop up window to show my projects-->
+        <div id="L" class="popup-overlay">
+          <div class="popup-content">
+          <span class="close-btn" onclick="hidePopupL()">&times;</span>
+          <h2 class="popup_head">Oops! Not yet uploaded, I'm working on it.</h2>
+          </div>
+        </div>
+
+        <button class="btn" onclick="showPopup()">Contact</button>
+
+        <!--Pop up window to show my contacts-->
+        <div id="popup" class="popup-overlay">
+          <div class="popup-content">
+          <span class="close-btn" onclick="hidePopup()">&times;</span>
+          <h2 class="popup_head">Contact Details</h2>
+          <p>Phone: +255 788939812<br>Whatsapp: +255 788939812<br>Email: ulikaye635@gmail.com</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 LitecH DevHaus. Built by Emmanuel Ulikaye.</p>
+    <p>Follow:</p>
+    <div class="social-icons">
+      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
