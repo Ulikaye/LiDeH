@@ -1,10 +1,10 @@
- LitecH DevHaus
+LiDeH
 Author: Emmanuel Ulikaye
 Role: Backend Software Developer
-Company: LitecH DevHaus
+Company: LiDeH
 
  🚀 Project Overview
-LitecH DevHaus is a personal developer portfolio and business landing page designed to showcase backend development expertise, contact information, and future projects.
+LiDeH is a personal developer portfolio and business landing page designed to showcase backend development expertise, contact information, and future projects.
 The website is fully responsive and optimized for all devices — particularly mobile users — and features a sleek, modern design using HTML, CSS, and JavaScript.
 
 🛠️ Technologies Used
