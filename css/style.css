@@ -58,6 +58,9 @@
        background-color: Transparent;
        text-decoration:none;
      }
+      a:visited{
+        color #00bfff;
+      }
 
     .hero {
       display: flex;
