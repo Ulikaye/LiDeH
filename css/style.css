@@ -53,6 +53,11 @@
     nav a:hover {
       color: #00bfff;
     }
+     a:link {
+       color:#00bfff;
+       background-color: Transparent;
+       text-decoration:none;
+     }
 
     .hero {
       display: flex;
